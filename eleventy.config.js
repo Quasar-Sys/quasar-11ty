@@ -22,7 +22,7 @@ export default function (eleventyConfig) {
 
 			const compiled = sass.compileString(inputContent, {
 				loadPaths: [parsed.dir || '.', this.config.dir.includes],
-				// silenceDeprecations: ['import', 'global-builtin', 'slash-div']
+				silenceDeprecations: ['import', 'global-builtin', 'slash-div', 'if-function', 'color-functions']
 			});
 
 			// Map dependencies for incremental builds
