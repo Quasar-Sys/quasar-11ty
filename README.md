@@ -1,6 +1,9 @@
 # quasar-11ty
 Quasar systems website, made with Eleventy static site generator.
 
-TODO:
-- Migrate Sass @import to @use/@forward
-- Remove legacy vendor prefix infrastructure
+## TODO:
+### Future Sass migration
+- Replace @import with @use/@forward
+- Replace transparentize()
+- Replace deprecated color helpers
+- Replace legacy if() syntax
