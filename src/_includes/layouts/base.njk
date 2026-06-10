@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+        {% include "partials/sections/head.njk" %}
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Header -->
+            <header id="header" class="alt" role="banner">
+                {% include "partials/sections/header.njk" %}
+            </header>
+
+            <!-- Main -->
+            <main tabindex="-1">
+                {% block main %}
+                {% endblock main %}
+            </main>
+
+            <!-- Footer -->
+            <footer id="footer">
+                {% include "partials/sections/footer.njk" %}
+            </footer>
+
+        </div>
+
+		<!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.dropotron.min.js"></script>
+        <script src="assets/js/jquery.selectorr.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+	</body>
+</html>
