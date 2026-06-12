@@ -1,0 +1,50 @@
+<section id="banner">
+  <div class="content primary inner">
+    <header>
+      <h1>{{ banner.text.headline }}</h1>
+      <p>{{ banner.text.subHeadline }}</p>
+    </header>
+    <ul class="actions special">
+      <li>
+        <a href="{{ banner.text.ctaLink }}" class="button large wide scrolly">
+          {{ banner.text.ctaText }}
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  {% if banner.features %}
+  <div class="content secondary">
+    <div class="inner">
+      {% for row in banner.features %}
+      <div class="features">
+        {% for section in row %}
+        <section>
+          <span class="icon {{ section.icon }}"></span>
+          <h3>{{ section.heading }}</h3>
+          <p>{{ section.caption }}</p>
+        </section>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if banner.video %}
+  <video class="background" autoplay muted loop>
+    <source src="{{ site.path.siteRoot }}{{ site.path.imageDir }}{{ banner.video.src }}" type="{{ banner.video.type }}">
+  </video>
+  {% endif %}
+
+  {% if banner.picture %}
+  <picture class="background">
+    <source media="(orientation: portrait)"
+      srcset="{{ site.path.siteRoot }}{{ site.path.imageDir }}{{ banner.picture.srcTall }}">
+
+    <img src="{{ site.path.siteRoot }}{{ site.path.imageDir }}{{ banner.picture.srcWide }}"
+      alt="{{ banner.picture.altText }}">
+  </picture>
+  {% endif %}
+
+</section>

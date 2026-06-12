@@ -1,0 +1,41 @@
+{
+  "components": {
+    "banner": {
+      "text": {
+        "headline": "Your business should run like a machine.",
+        "subHeadline": "We build simple, reliable systems that handle your daily paperwork and manual tasks—so you can get rid of the bureaucracy and focus on the work that actually makes you money.",
+        "ctaText": "See how we can help",
+        "ctaLink": "#"
+      },
+      "features": [
+        [
+          {
+            "icon": "fa-gem major",
+            "heading": "Get your evenings back",
+            "caption": "Stop retyping data from WhatsApp or chasing receipts. Our systems do the \"busy work\" for you."
+          },
+          {
+            "icon": "solid fa-chart-line major",
+            "heading": "Manage your team from anywhere",
+            "caption": "Know exactly what's happening on the job site without having to be there. Our tools connect your field team directly to your office."
+          },
+          {
+            "icon": "solid fa-camera-retro major",
+            "heading": "Grow without the headache",
+            "caption": "Most businesses have to hire more office help just to keep up with the paperwork. We help you scale your revenue without increasing your administrative burden."
+          },
+          {
+            "icon": "solid fa-chart-line major",
+            "heading": "See your real profits",
+            "caption": "Get a clear, simple dashboard that shows you exactly which jobs are making money and which ones aren't—in real-time."
+          }
+        ]
+      ],
+      "picture": {
+        "altText": "Abstract picture of Quasar Systems logo featuring ",
+        "srcTall": "home-banner-tall.webp",
+        "srcWide": "home-banner-wide.webp"
+      }
+    }
+  }
+}

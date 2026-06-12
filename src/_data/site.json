@@ -1,0 +1,10 @@
+{
+    "self": {
+        "title": "Quasar Systems"
+    },
+    "path": {
+        "assetDir": "assets/",
+        "imageDir": "images/",
+        "siteRoot": "/"
+    }
+}

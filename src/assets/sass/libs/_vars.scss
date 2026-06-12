@@ -36,34 +36,81 @@
 		weight-extrabold:	700
 	);
 
-// Palette.
-	$palette: (
-		bg-shadow:			rgba(0,0,0,0.125),
+// // Palette.
+// 	$palette: (
+// 		bg-shadow:			rgba(0,0,0,0.125),
 
-		bg:					#ffffff,
-		bg-alt:				#f7f7f7,
-		fg:					#3b3b3b,
-		fg-bold:			#3b3b3b,
-		fg-light:			#acacac,
-		border:				#eeeeee,
-		border-bg:			rgba(144,144,144,0.075),
+// 		bg:					#ffffff,
+// 		bg-alt:				#f7f7f7,
+// 		fg:					#3b3b3b,
+// 		fg-bold:			#3b3b3b,
+// 		fg-light:			#acacac,
+// 		border:				#eeeeee,
+// 		border-bg:			rgba(144,144,144,0.075),
 
-		accent1: (
-			bg:				#23b1ec,
-			fg:				rgba(255,255,255,0.75),
-			fg-bold:		#ffffff,
-			fg-light:		rgba(255,255,255,0.5),
-			border:			rgba(255,255,255,0.25),
-			border-bg:		rgba(255,255,255,0.075)
-		),
+// 		accent1: (
+// 			bg:				#23b1ec,
+// 			fg:				rgba(255,255,255,0.75),
+// 			fg-bold:		#ffffff,
+// 			fg-light:		rgba(255,255,255,0.5),
+// 			border:			rgba(255,255,255,0.25),
+// 			border-bg:		rgba(255,255,255,0.075)
+// 		),
 
-		accent2: (
-			bg:				#80bb2d,
-			fg:				rgba(255,255,255,0.75),
-			fg-bold:		#ffffff,
-			fg-light:		rgba(255,255,255,0.5),
-			border:			rgba(255,255,255,0.25),
-			border-bg:		rgba(255,255,255,0.075)
-		)
+// 		accent2: (
+// 			bg:				#80bb2d,
+// 			fg:				rgba(255,255,255,0.75),
+// 			fg-bold:		#ffffff,
+// 			fg-light:		rgba(255,255,255,0.5),
+// 			border:			rgba(255,255,255,0.25),
+// 			border-bg:		rgba(255,255,255,0.075)
+// 		)
 
-	);
+// 	);
+
+// Palette adjusted for Quasar Systems Brand Identity
+$palette: (
+    bg-shadow:          rgba(0,0,0,0.125),
+
+    // Main Canvas
+    bg:                 #ffffff,
+    bg-alt:             #EDF2F6,            // Your specific background light neutral
+    fg:                 #3b3b3b,
+    fg-bold:            #243B53,            // Deep Blue (Engineering Authority)
+    fg-light:           #486581,            // Slate Blue
+    border:             #eeeeee,
+    border-bg:          rgba(144,144,144,0.075),
+
+    // // Accent 1: The Energy Core (Amber #FEB603)
+    // // Used for Primary CTAs and "Problem-Solving" focus points
+    // accent1: (
+    //     bg:             #FEB603,
+    //     fg:             rgba(36, 59, 83, 0.8), // Deep Blue contrast for legibility
+    //     fg-bold:        #243B53,
+    //     fg-light:       rgba(36, 59, 83, 0.6),
+    //     border:         rgba(36, 59, 83, 0.25),
+    //     border-bg:      rgba(36, 59, 83, 0.075)
+    // ),
+
+    // Accent 1: The Energy Core (Oxidized Copper #B87333)
+    // Darker tone for superior contrast on light backgrounds
+    accent1: (
+        bg:             #B87333,            // Oxidized Copper for "Thermal Depth"
+        fg:             rgba(255,255,255,0.8), // Light contrast for high legibility
+        fg-bold:        #ffffff,            // Crisp white for primary actions
+        fg-light:       rgba(255,255,255,0.5),
+        border:         rgba(36, 59, 83, 0.15), // Subtle Deep Blue border for structural definition
+        border-bg:      rgba(36, 59, 83, 0.05)
+    ),
+
+    // Accent 2: Technical Teal (#2E8B57)
+    // Used for "System Active" indicators, ROI stats, and "Success" states
+    accent2: (
+        bg:             #2E8B57,
+        fg:             rgba(255, 255, 255, 0.75),
+        fg-bold:        #ffffff,
+        fg-light:       rgba(255, 255, 255, 0.5),
+        border:         rgba(255, 255, 255, 0.25),
+        border-bg:      rgba(255, 255, 255, 0.075)
+    )
+);
