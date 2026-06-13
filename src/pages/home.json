@@ -36,6 +36,36 @@
         "srcTall": "home-banner-tall.webp",
         "srcWide": "home-banner-wide.webp"
       }
+    },
+    "deck": {
+      "text": {
+        "headline": "Practical solutions for high-stakes industries",
+        "subHeadline": "Systems built for the daily reality of your business. We fix your operational bottlenecks so you can focus on growth without the headache.",
+        "ctaText": null,
+        "ctaLink": null
+      },
+      "features": [
+        {
+          "icon": "icon-construction.webp",
+          "heading": "Construction & Landscaping",
+          "caption": "Stop the chaos of tracking materials and crews. Instead of chasing paper, your team sends receipts from suppliers like Home Depot or Lowe's directly via WhatsApp. Our system organizes these costs by project and category. You get a clear view of your job sites and project status in real-time, without the manual data entry."
+        },
+        {
+          "icon": "icon-property-management.webp",
+          "heading": "Real estate & Property management",
+          "caption": "Find the best deals before your competitors do. Stop wasting hours scrolling through listings manually. We set up systems that scan the market for you, applying your specific investment criteria to flag the best opportunities instantly. You find profitable deals faster and eliminate the risk of missing out due to administrative delays."
+        },
+        {
+          "icon": "icon-professional-services.webp",
+          "heading": "Professional services",
+          "caption": "Stop chasing clients for missing documents. For Immigration, Tax, and Bookkeeping firms, we automate the tedious work of collecting files and sending follow-ups. Your client onboarding becomes faster, and your documentation stays organized for tax season or audits, allowing you to handle more clients with less effort."
+        },
+        {
+          "icon": "icon-field-services.webp",
+          "heading": "Cleaning & Field Services",
+          "caption": "Organize your team's schedule with ease. Professionalize your dispatch and team coordination. Our systems handle scheduling, team assignments, and job confirmations automatically. You reduce the constant back-and-forth communication needed to manage field staff, making your daily operation more predictable and easier to scale."
+        }
+      ]
     }
   }
 }

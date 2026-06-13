@@ -22,7 +22,7 @@
 			width: 100%;
 			height: 100%;
 			background-color: _palette(bg-alt);
-			opacity: 0.75;
+			opacity: 0.85;
 		}
 
 		header {
@@ -38,13 +38,12 @@
 			top: 0;
 			left: 0;
 			width: 100vw;
-			// height: 100vh;
-			height: 100%;
+			height: 100vh;
 			overflow: hidden;
 			z-index: -1;
 
 			img {
-				width: 100%;
+				height: 100%;
 			}
 
 		}
@@ -64,7 +63,7 @@
 
 			&.secondary {
 				@include padding($padding * 0.75, 0);
-				background-color: transparentize(_palette(bg), 0.5);
+				//background-color: transparentize(_palette(bg), 0.5);
 			}
 		}
 

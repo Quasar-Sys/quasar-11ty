@@ -1,0 +1,24 @@
+.card1 {
+    $padding: _size(padding, medium);
+
+    padding: ($padding * 0.5) ($padding * 0.75);
+    position: relative;
+    background: transparentize(_palette(bg-alt), 0.25);
+    background-image: var(--card-image);
+    border-radius: _size(border-radius);
+    border: 1px solid _palette(accent1, border);
+    box-shadow: 0 0.075rem 0.75rem 0 _palette(bg-shadow);
+
+    img {
+        height: _size(element-height) * 2.25;
+        width: _size(element-height) * 2.25;
+    }
+
+    h3 {
+        margin-bottom: _size(element-margin) * 0.5;
+    }
+
+    p {
+        color: _palette(fg-light);
+    }
+}

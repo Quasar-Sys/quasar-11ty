@@ -1,0 +1,18 @@
+<section id="deck" class="main">
+    <header>
+      <h2>{{ deck.text.headline }}</h2>
+      <p>{{ deck.text.subHeadline }}</p>
+    </header>
+    <div class="card-grid inner">
+        {% for card in deck.features %}
+        <article 
+          class="card1"
+          style="--card-image: url('{{ site.path.siteRoot }}{{ site.path.imageDir }}card1-bg.webp');"
+        >
+            <img src="{{ site.path.siteRoot }}{{ site.path.imageDir }}{{ card.icon }}">
+            <h3>{{ card.heading }}</h3>
+            <p>{{ card.caption }}</p>
+        </article>
+        {% endfor %}
+    </div>
+</section>
