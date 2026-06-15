@@ -67,5 +67,19 @@
         }
       ]
     }
+  },
+  "sections": {
+    "why": {
+      "text": {
+        "headline": "No buzzwords. Just systems that work.",
+        "subHeadline": "We don't sell \"AI\" for the sake of it. We are engineers who build the operational backbone your business needs to stay organized, profitable, and ready for the next level.",
+        "ctaText": null,
+        "ctaLink": null
+      },
+      "features": {
+        "imgSrc": "exploded-view.webp",
+        "imgAlt": "Isometric exploded view illustration of the Quasar Systems operational backbone, showing vertically stacked layers: a foundational coordinate grid, a printed circuit board with logic traces forming the logo, a user interface dashboard, and floating automated data components."
+      }
+    }
   }
 }

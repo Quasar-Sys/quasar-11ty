@@ -9,3 +9,14 @@ permalink: "/"
 
 {% set deck = layouts.deck %}
 {% include "partials/layouts/deck.njk" %}
+
+<!-- How it works (exploded view) -->
+<section id="why" class="main">
+  <header>
+    <h2>{{ sections.why.text.headline }}</h2>
+    <p>{{ sections.why.text.subHeadline }}</p>
+  </header>
+  <div class="inner">
+    <img src="{{ site.path.siteRoot }}{{ site.path.imageDir }}{{ sections.why.features.imgSrc }}" alt="{{ sections.why.features.imgAlt }}">
+  </div>
+</section>
