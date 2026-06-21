@@ -1,14 +1,211 @@
 #why {
-	.inner {
-		display: flex;
-		justify-content: center;
+  .inner {
+    display: flex;
+    justify-content: center;
 
-		img {
+    img {
       // max-width: 100%;
       max-width: 850px;
       width: auto;
       height: auto;
       image-rendering: -webkit-optimize-contrast;
-		}
-	}
+    }
+  }
+}
+
+// #roadmap-30days {
+// 	.roadmap {
+// 		// display: flex;
+// 		// justify-content: space-between;
+// 		// gap: 2rem;
+// 		// position: relative;
+
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+//     gap: _size(padding, medium) * 1.25 _size(padding, medium) * 0.75;
+
+//     .roadmap-card {
+//       position:relative;
+//       // width:33%;
+//       padding:2rem;
+//       border:1px solid #486581;
+//       border-radius:0.5rem;
+//       background:white;
+
+//       &.active {
+//         border-color:#FFB703;
+
+//         .roadmap-node {
+//           border-color:#FFB703;
+//         }
+//       }
+//     }
+
+//     .roadmap-label {
+//       position:absolute;
+//       top:-2.5rem;
+//       left:1rem;
+//       font-size:.8rem;
+//       color:#486581;
+//       border-bottom:1px solid currentColor;
+//       padding-bottom:.35rem;
+//     }
+// 	}
+// }
+
+#roadmap-4s {
+  $icon-size: _size(element-height) * 2.25;
+  $padding: _size(padding, default);
+
+  background: #F8F9FB;
+  position: relative;
+  overflow: hidden;
+
+  // subtle coordinate grid
+  &:before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(90deg,
+        rgba(159, 179, 200, .12) 1px,
+        transparent 1px),
+      linear-gradient(0deg,
+        rgba(159, 179, 200, .12) 1px,
+        transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+
+  }
+
+  .stepper {
+    position: relative;
+    // margin-top: 4rem;
+  }
+
+  .step {
+    position: relative;
+    display: flex;
+    gap: 2rem;
+    padding-bottom: $padding / 2;
+
+    // backbone
+    &:not(:last-child):before {
+      content: '';
+      position: absolute;
+      left: $icon-size / 2;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: _palette(fg);
+    }
+
+    &:hover {
+      .step-icon {
+        transform: scale(1.15);
+      }
+
+      .step-content > h3 {
+        color: _palette(accent1, bg);
+      }
+    }
+  }
+
+  .step-icon {
+    position: relative;
+    z-index: 1;
+    width: $icon-size;
+    height: $icon-size;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: _palette(bg);
+    border-radius: 50%;
+    border: 1px solid _palette(border-bg);
+    color: _palette(fg);
+    font-size: 2rem;
+    transition: transform .3s ease;
+  }
+
+  .step-content {
+    position: relative;
+    padding-top: $padding / 12;
+    flex: 1;
+
+    & > h3 {
+      transition: color .3s ease
+    }
+  }
+
+  .step-label {
+    display: block;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    color: _palette(fg);
+    margin-bottom: $padding / 12;
+  }
+
+  // maturity states
+  .step-start {
+    .step-icon {
+      border-style: dashed;
+      border-color: _palette(fg-light);
+      color: _palette(fg-light);
+    }
+  }
+
+  .step-survey {
+    .step-icon {
+      border-color: _palette(fg);
+    }
+  }
+
+  .step-solve {
+    .step-icon {
+      border-color: _palette(fg-bold);
+      color: _palette(fg-bold);
+    }
+  }
+
+  .step-scale {
+    .step-icon {
+      background: _palette(accent1, bg);
+      border-color: _palette(accent1, bg);
+      color: _palette(fg-bold);
+
+      &:after {
+        content: '';
+        position: absolute;
+        inset: -.5rem;
+        border-radius: 50%;
+        border: 1px solid transparentize(_palette(accent1, bg), 0.35);
+      }
+    }
+  }
+
+  //   // mobile
+  //   @include breakpoint('<=medium') {
+  //     .stepper {
+  //       &:before {
+  //         left: 1.5rem;
+  //       }
+  //     }
+
+  //     .step {
+  //       gap: 1.5rem;
+  //     }
+
+  //     .step-icon {
+  //       width: 3rem;
+  //       height: 3rem;
+  //       font-size: 1rem;
+  //     }
+
+  //     .step-content {
+  //       &:before {
+  //         left: -1.5rem;
+  //       }
+  //     }
+  //   }
 }

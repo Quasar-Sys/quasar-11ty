@@ -66,6 +66,48 @@
           "caption": "Organize your team's schedule with ease. Professionalize your dispatch and team coordination. Our systems handle scheduling, team assignments, and job confirmations automatically. You reduce the constant back-and-forth communication needed to manage field staff, making your daily operation more predictable and easier to scale."
         }
       ]
+    },
+    "roadmap": {
+      "text": {
+        "headline": "The 30-day plan: simple & low risk",
+        "subHeadline": "The <strong>4-S roadmap</strong> is a 30-day framework for replacing  administrative bottlenecks with systems engineered to give you a stable operational backbone. We identify your specific gaps and implement a working fix that becomes your permanent company standard. We apply AI with purpose, prioritizing functional and proven solutions over trend-following.",
+        "ctaText": null,
+        "ctaLink": null
+      },
+      "features": [
+        {
+          "icon": "fa-power-off",
+          "class": "step-start",
+          "heading": "Define your baseline",
+          "caption": "Stop fighting the manual chaos of fragmented data and paperwork. We begin by mapping your current <strong>operational reality</strong> - identifying the exact bottlenecks that are currently limiting your growth. This is the ignition point where we switch on professional engineering for your business.",
+          "label": "1. START",
+          "active": false
+        },
+        {
+          "icon": "fa-compass-drafting",
+          "class": "step-survey",
+          "heading": "60 minutes to blueprint your success",
+          "caption": "We don't do generic demos. We perform a technical <strong>site survey</strong> of your business rules during a 60-minute discovery call. Our engineers identify the \"hardwired\" requirements needed to build your <strong>operational backbone</strong>, ensuring every automated link drives measurable ROI.",
+          "label": "2. SURVEY",
+          "active": false
+        },
+        {
+          "icon": "fa-screwdriver-wrench",
+          "class": "step-solve",
+          "heading": "A functional pilot in under 30 days",
+          "caption": "We move fast to solve your biggest headache. Within 30 days, we implement a <strong>pilot</strong> - a functional MVP that hardwires logic directly into your daily operation. This isn't \"AI magic\"; it's a calculated, reliable system built to handle your daily \"busy work\" so you don't have to.",
+          "label": "3. SOLVE",
+          "active": false
+        },
+        {
+          "icon": "icon solid fa-atom",
+          "class": "step-scale",
+          "heading": "Achieve a stable, self-sustaining operation",
+          "caption": "Once validated, your pilot becomes a <strong>permanent standard</strong>. Your business reaches a \"stable orbit\" where systems run like a machine, allowing you to <strong>scale your revenue</strong> without increasing your administrative burden. This is your success node—organized, profitable, and ready for the next level.",
+          "label": "4. SCALE",
+          "active": true
+        }
+      ]
     }
   },
   "sections": {
@@ -76,9 +118,9 @@
         "ctaText": null,
         "ctaLink": null
       },
-      "features": {
-        "imgSrc": "exploded-view.webp",
-        "imgAlt": "Isometric exploded view illustration of the Quasar Systems operational backbone, showing vertically stacked layers: a foundational coordinate grid, a printed circuit board with logic traces forming the logo, a user interface dashboard, and floating automated data components."
+      "picture": {
+        "altText": "Isometric exploded view illustration of the Quasar Systems operational backbone, showing vertically stacked layers: a foundational coordinate grid, a printed circuit board with logic traces forming the logo, a user interface dashboard, and floating automated data components.",
+        "srcWide": "exploded-view.webp"
       }
     }
   }
