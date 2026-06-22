@@ -28,13 +28,24 @@
 	);
 
 // Font.
-	$font: (
-		family:				('Lato', Arial, Helvetica, sans-serif),
-		family-fixed:		('Courier New', monospace),
-		weight:				200,
-		weight-bold:		400,
-		weight-extrabold:	700
-	);
+	// $font: (
+	// 	family:				('Lato', Arial, Helvetica, sans-serif),
+	// 	family-fixed:		('Courier New', monospace),
+	// 	weight:				200,
+	// 	weight-bold:		400,
+	// 	weight-extrabold:	700
+	// );
+  $font: (
+      family:             ('Inter', Arial, Helvetica, sans-serif),
+      family-alt:         ('Inter Tight', Arial, Helvetica, sans-serif),
+      family-heading:     ('Science Gothic', Arial, Helvetica, sans-serif),
+      family-fixed:       ('Courier New', monospace),
+
+      weight:             300,
+      weight-bold:        400,
+      weight-extrabold:   700
+  );
+
 
 // // Palette.
 // 	$palette: (

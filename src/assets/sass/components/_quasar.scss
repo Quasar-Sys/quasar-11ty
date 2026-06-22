@@ -1,3 +1,9 @@
+#banner {
+  h1 {
+    font-size: 6rem;
+  }
+}
+
 #why {
   .inner {
     display: flex;
@@ -12,46 +18,6 @@
     }
   }
 }
-
-// #roadmap-30days {
-// 	.roadmap {
-// 		// display: flex;
-// 		// justify-content: space-between;
-// 		// gap: 2rem;
-// 		// position: relative;
-
-//     display: grid;
-//     grid-template-columns: repeat(2, 1fr);
-//     gap: _size(padding, medium) * 1.25 _size(padding, medium) * 0.75;
-
-//     .roadmap-card {
-//       position:relative;
-//       // width:33%;
-//       padding:2rem;
-//       border:1px solid #486581;
-//       border-radius:0.5rem;
-//       background:white;
-
-//       &.active {
-//         border-color:#FFB703;
-
-//         .roadmap-node {
-//           border-color:#FFB703;
-//         }
-//       }
-//     }
-
-//     .roadmap-label {
-//       position:absolute;
-//       top:-2.5rem;
-//       left:1rem;
-//       font-size:.8rem;
-//       color:#486581;
-//       border-bottom:1px solid currentColor;
-//       padding-bottom:.35rem;
-//     }
-// 	}
-// }
 
 #roadmap-4s {
   $icon-size: _size(element-height) * 2.25;

@@ -1,7 +1,9 @@
 <section id="banner">
   <div class="content primary inner">
     <header>
-      <h1>{{ banner.text.headline }}</h1>
+      <h1>
+        <span class="shrink">{{ banner.text.headline }}</span>
+      </h1>
       <p>{{ banner.text.subHeadline }}</p>
     </header>
     <ul class="actions special">
@@ -23,7 +25,9 @@
           <div class="icon major">
             <i class="{{ section.icon }}"></i>
           </div>
-          <h3>{{ section.heading }}</h3>
+          <h3>
+            {{ section.heading }}
+          </h3>
           <p>{{ section.caption }}</p>
         </section>
         {% endfor %}
