@@ -65,20 +65,18 @@
 					> a {
 						overflow: hidden;
 
-						&.icon {
-							&:before {
-								float: right;
-								margin-left: 0.75rem;
-								line-height: inherit;
-								color: _palette(fg-light);
-							}
-
-							&:hover {
-								&:before {
-									color: inherit;
-								}
-							}
+						> span.icon > i {
+              float: right;
+              margin-left: 0.75rem;
+              line-height: inherit;
+              color: transparentize(_palette(fg-light), 0.5);
 						}
+
+            &:hover {
+              span.icon > i {
+                color: inherit;
+              }
+            }
 					}
 
 					> ul {

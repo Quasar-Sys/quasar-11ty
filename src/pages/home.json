@@ -10,22 +10,22 @@
       "features": [
         [
           {
-            "icon": "fa-gem major",
+            "icon": "fa-solid fa-thumbs-up",
             "heading": "Get your evenings back",
             "caption": "Stop retyping data from WhatsApp or chasing receipts. Our systems do the \"busy work\" for you."
           },
           {
-            "icon": "solid fa-chart-line major",
+            "icon": "fa-solid fa-network-wired",
             "heading": "Manage your team from anywhere",
             "caption": "Know exactly what's happening on the job site without having to be there. Our tools connect your field team directly to your office."
           },
           {
-            "icon": "solid fa-camera-retro major",
+            "icon": "fa-solid fa-layer-group",
             "heading": "Grow without the headache",
             "caption": "Most businesses have to hire more office help just to keep up with the paperwork. We help you scale your revenue without increasing your administrative burden."
           },
           {
-            "icon": "solid fa-chart-line major",
+            "icon": "fa-solid fa-magnifying-glass-chart",
             "heading": "See your real profits",
             "caption": "Get a clear, simple dashboard that shows you exactly which jobs are making money and which ones aren't—in real-time."
           }
@@ -76,7 +76,7 @@
       },
       "features": [
         {
-          "icon": "fa-power-off",
+          "icon": "fa-solid fa-power-off",
           "class": "step-start",
           "heading": "Define your baseline",
           "caption": "Stop fighting the manual chaos of fragmented data and paperwork. We begin by mapping your current <strong>operational reality</strong> - identifying the exact bottlenecks that are currently limiting your growth. This is the ignition point where we switch on professional engineering for your business.",
@@ -84,7 +84,7 @@
           "active": false
         },
         {
-          "icon": "fa-compass-drafting",
+          "icon": "fa-solid fa-compass-drafting",
           "class": "step-survey",
           "heading": "60 minutes to blueprint your success",
           "caption": "We don't do generic demos. We perform a technical <strong>site survey</strong> of your business rules during a 60-minute discovery call. Our engineers identify the \"hardwired\" requirements needed to build your <strong>operational backbone</strong>, ensuring every automated link drives measurable ROI.",
@@ -92,7 +92,7 @@
           "active": false
         },
         {
-          "icon": "fa-screwdriver-wrench",
+          "icon": "fa-solid fa-screwdriver-wrench",
           "class": "step-solve",
           "heading": "A functional pilot in under 30 days",
           "caption": "We move fast to solve your biggest headache. Within 30 days, we implement a <strong>pilot</strong> - a functional MVP that hardwires logic directly into your daily operation. This isn't \"AI magic\"; it's a calculated, reliable system built to handle your daily \"busy work\" so you don't have to.",
@@ -100,7 +100,7 @@
           "active": false
         },
         {
-          "icon": "icon solid fa-atom",
+          "icon": "fa-solid fa-atom",
           "class": "step-scale",
           "heading": "Achieve a stable, self-sustaining operation",
           "caption": "Once validated, your pilot becomes a <strong>permanent standard</strong>. Your business reaches a \"stable orbit\" where systems run like a machine, allowing you to <strong>scale your revenue</strong> without increasing your administrative burden. This is your success node—organized, profitable, and ready for the next level.",

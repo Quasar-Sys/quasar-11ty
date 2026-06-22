@@ -11,18 +11,27 @@
 		padding-left: 0;
 
 		li {
-			@include icon(false, solid);
 			margin-top: 1rem;
 			position: relative;
-			padding-left: 1rem;
+      padding-left: 0;
 
-			&:before {
-				content: '\f105';
-				position: absolute;
-				top: 0;
-				left: 0;
-				line-height: inherit;
-			}
+      a {
+        border: none;
+        text-decoration: none;
+
+        i {
+          margin-right: 0.25rem;
+          font-size: .75rem;
+          color: _palette(fg-light);
+        }
+
+        span {
+          text-decoration-line: underline;
+          text-decoration-style: dotted;
+          text-decoration-thickness: 1px;
+          text-underline-offset: 0.4em;
+        }
+      }
 
 			&:first-child {
 				margin-top: 0;

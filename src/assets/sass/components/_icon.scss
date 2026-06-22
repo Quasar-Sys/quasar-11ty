@@ -1,66 +1,45 @@
-///
-/// Hypothesis by Pixelarity
-/// pixelarity.com | hello@pixelarity.com
-/// License: pixelarity.com/license
-///
 
 /* Icon */
 
-	.icon {
-		@include icon;
-		border-bottom: none;
-		position: relative;
+.icon {
+  @include icon;
+  $icon-size: _size(element-height) * 1.75;
 
-		> .label {
-			display: none;
-		}
+  border-bottom: none;
+  position: relative;
 
-		&.solid {
-			&:before {
-				font-weight: 900;
-			}
-		}
+  > .label {
+    display: none;
+  }
 
-		&.brands {
-			&:before {
-				font-family: 'Font Awesome 5 Brands';
-			}
-		}
+  &.major {
+    display: block;
+    margin: 0 0 (_size(element-margin) * 0.625) 0;
+    display: inline-block;
+    width: $icon-size;
+    height: $icon-size;
+    line-height: $icon-size;
+    border-radius: $icon-size;
+    font-size: $icon-size / 2.5;
+    text-align: center;
+  }
+}
 
-		&.major {
-			display: block;
-			margin: 0 0 (_size(element-margin) * 0.625) 0;
+@mixin color-icon($p: null) {
+  .icon {
 
-			&:before {
-				display: inline-block;
-				width: 4.5rem;
-				height: 4.5rem;
-				line-height: 4.5rem;
-				border-radius: 4.5rem;
-				font-size: 1.75rem;
-				text-align: center;
-			}
-		}
-	}
+    &.major {
+      @if ($p != null) {
+        box-shadow: inset 0 0 0 1px _palette($p, fg-bold);
+        color: _palette($p, fg-bold);
+      }
+      @else {
+        box-shadow: inset 0 0 0 1px transparentize(_palette(accent1, bg), 0.35);
+        background-color: transparentize(_palette(accent1, bg), 0.925);
+        color: _palette(accent1, bg);
+      }
+    }
+  }
+}
 
-	@mixin color-icon($p: null) {
-		.icon {
-
-			&.major {
-				@if ($p != null) {
-					&:before {
-						box-shadow: inset 0 0 0 3px _palette($p, fg-bold);
-						color: _palette($p, fg-bold);
-					}
-				}
-				@else {
-					&:before {
-						box-shadow: inset 0 0 0 3px _palette(accent1, bg);
-						color: _palette(accent1, bg);
-					}
-				}
-			}
-		}
-	}
-
-	@include color-icon;
+@include color-icon;

@@ -5,9 +5,10 @@ export default function (eleventyConfig) {
 	eleventyConfig.setInputDirectory('src');
 	eleventyConfig.setOutputDirectory('dist');
 
-	eleventyConfig.addPassthroughCopy('src/assets/css');
+	// eleventyConfig.addPassthroughCopy('src/assets/css');
 	eleventyConfig.addPassthroughCopy('src/assets/js');
-	eleventyConfig.addPassthroughCopy('src/assets/webfonts');
+	// eleventyConfig.addPassthroughCopy('src/assets/webfonts');
+  eleventyConfig.addPassthroughCopy('src/assets/fontawesome');
 	eleventyConfig.addPassthroughCopy('src/images');
 
 	eleventyConfig.addExtension('scss', {
