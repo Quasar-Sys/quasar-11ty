@@ -6,18 +6,10 @@
       </h1>
       <p>{{ banner.text.subHeadline }}</p>
     </header>
-    <ul class="actions special">
-      <li>
-        <a href="{{ banner.text.ctaLink }}" class="button large wide scrolly">
-          {{ banner.text.ctaText }}
-        </a>
-      </li>
-    </ul>
   </div>
 
   {% if banner.features %}
-  <div class="content secondary">
-    <div class="inner">
+  <div class="content secondary inner">
       {% for row in banner.features %}
       <div class="features">
         {% for section in row %}
@@ -33,9 +25,25 @@
         {% endfor %}
       </div>
       {% endfor %}
-    </div>
   </div>
   {% endif %}
+
+  <div class="content secondary inner">
+    <div class="risk-reversal-cta">
+      <div class="cta">
+        <ul class="actions special">
+          <li>
+            <a href="{{ banner.text.ctaLink }}" class="button large wide scrolly">
+              {{ banner.text.ctaText }}
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div  class="risk-reversal">
+        <p>{{ banner.text.riskReversal | safe }}</p>
+      </div>
+    </div>
+  </div>
 
   {% if banner.video %}
   <video class="background" autoplay muted loop>

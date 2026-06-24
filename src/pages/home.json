@@ -3,9 +3,10 @@
     "banner": {
       "text": {
         "headline": "Your business should run like a machine.",
-        "subHeadline": "We build simple, reliable systems that handle your daily paperwork and manual tasks—so you can get rid of the bureaucracy and focus on the work that actually makes you money.",
-        "ctaText": "See how we can help",
-        "ctaLink": "#"
+        "subHeadline": "We build and implement automation systems that remove the repetitive work slowing your business down — from customer follow-ups and scheduling to paperwork and team coordination — so you can spend less time managing tasks and more time growing your company.",
+        "ctaText": "Get started",
+        "ctaLink": "#",
+        "riskReversal": "No obligations. No complicated software changes. We start with one process, prove the value, and expand from there."
       },
       "features": [
         [
@@ -39,8 +40,8 @@
     },
     "deck": {
       "text": {
-        "headline": "Practical solutions for high-stakes industries.",
-        "subHeadline": "Systems built for the daily reality of your business. We fix your operational bottlenecks so you can focus on growth without the headache.",
+        "headline": "Built for service businesses where operations happen in the real world.",
+        "subHeadline": "If your business involves clients, teams, and ongoing daily operations, these are examples of the types of companies we typically work with.",
         "ctaText": null,
         "ctaLink": null
       },
@@ -53,7 +54,7 @@
         {
           "icon": "icon-property-management.webp",
           "heading": "Real estate & Property management",
-          "caption": "Find the best deals before your competitors do. Stop wasting hours scrolling through listings manually. We set up systems that scan the market for you, applying your specific investment criteria to flag the best opportunities instantly. You find profitable deals faster and eliminate the risk of missing out due to administrative delays."
+          "caption": "Stop losing time on repetitive follow-ups and administrative work. We automate lead responses, client communication, appointment scheduling, and document collection — so you can spend more time serving clients and less time managing tasks."
         },
         {
           "icon": "icon-professional-services.webp",
@@ -70,7 +71,7 @@
     "roadmap": {
       "text": {
         "headline": "The 30-day plan: simple & low risk.",
-        "subHeadline": "The <strong>4-S roadmap</strong> is a 30-day framework for replacing  administrative bottlenecks with systems engineered to give you a stable operational backbone. We identify your specific gaps and implement a working fix that becomes your permanent company standard. We apply AI with purpose, prioritizing functional and proven solutions over trend-following.",
+        "subHeadline": "Our 4-S roadmap helps you find the biggest operational bottleneck, confirm the right solution, and put a working system in place within 30 days — without adding complexity to your business.",
         "ctaText": null,
         "ctaLink": null
       },
@@ -78,32 +79,32 @@
         {
           "icon": "fa-solid fa-power-off",
           "class": "step-start",
-          "heading": "Define your baseline",
-          "caption": "Stop fighting the manual chaos of fragmented data and paperwork. We begin by mapping your current <strong>operational reality</strong> - identifying the exact bottlenecks that are currently limiting your growth. This is the ignition point where we switch on professional engineering for your business.",
+          "heading": "Find where you're losing time",
+          "caption": "We begin by understanding your current operation — how information moves, where tasks get repeated, and where your team spends unnecessary hours. We identify the bottlenecks that slow down your business and define the first opportunity for improvement.",
           "label": "1. START",
           "active": false
         },
         {
           "icon": "fa-solid fa-compass-drafting",
           "class": "step-survey",
-          "heading": "60 minutes to blueprint your success",
-          "caption": "We don't do generic demos. We perform a technical <strong>site survey</strong> of your business rules during a 60-minute discovery call. Our engineers identify the \"hardwired\" requirements needed to build your <strong>operational backbone</strong>, ensuring every automated link drives measurable ROI.",
+          "heading": "Map the right solution",
+          "caption": "We analyze the bottlenecks identified in the first step and design a practical solution around your business. You provide the context we need, and we handle the planning — ensuring the system fits your workflow before implementation begins.",
           "label": "2. SURVEY",
           "active": false
         },
         {
           "icon": "fa-solid fa-screwdriver-wrench",
           "class": "step-solve",
-          "heading": "A functional pilot in under 30 days",
-          "caption": "We move fast to solve your biggest headache. Within 30 days, we implement a <strong>pilot</strong> - a functional MVP that hardwires logic directly into your daily operation. This isn't \"AI magic\"; it's a calculated, reliable system built to handle your daily \"busy work\" so you don't have to.",
+          "heading": "Launch your first automation",
+          "caption": "We build and test a working solution based on your priorities. Within 30 days, you get a practical system designed to handle a specific business problem — reducing manual work, improving organization, and giving your team more time to focus.",
           "label": "3. SOLVE",
           "active": false
         },
         {
           "icon": "fa-solid fa-atom",
           "class": "step-scale",
-          "heading": "Achieve a stable, self-sustaining operation",
-          "caption": "Once validated, your pilot becomes a <strong>permanent standard</strong>. Your business reaches a \"stable orbit\" where systems run like a machine, allowing you to <strong>scale your revenue</strong> without increasing your administrative burden. This is your success node—organized, profitable, and ready for the next level.",
+          "heading": "Expand what works",
+          "caption": "Once your first improvement is proven, we continue building on what works. Your business gains a stronger operational foundation, allowing you to automate more processes, reduce administrative pressure, and grow without adding unnecessary complexity.",
           "label": "4. SCALE",
           "active": true
         }
@@ -114,13 +115,21 @@
     "why": {
       "text": {
         "headline": "No buzzwords. Just systems that work.",
-        "subHeadline": "We don't sell \"AI\" for the sake of it. We are engineers who build the operational backbone your business needs to stay organized, profitable, and ready for the next level.",
+        "subHeadline": "We don't sell \"AI\" for the sake of it. We are engineers who build the systems your business needs to stay organized, reduce manual work, and scale without unnecessary complexity.",
         "ctaText": null,
         "ctaLink": null
       },
       "picture": {
         "altText": "Isometric exploded view illustration of the Quasar Systems operational backbone, showing vertically stacked layers: a foundational coordinate grid, a printed circuit board with logic traces forming the logo, a user interface dashboard, and floating automated data components.",
         "srcWide": "exploded-view.webp"
+      }
+    },
+    "reassurance": {
+      "text": {
+        "headline": "We don't automate everything. <br />We fix what hurts first.",
+        "subHeadline": "We start with the process creating the most friction in your business. Our experience working with US companies helps us design practical solutions that fit your operation and solve real problems — starting small, proving value, and expanding from there as your business grows.",
+        "ctaText": "Find your first opportunity",
+        "ctaLink": "#"
       }
     }
   }
