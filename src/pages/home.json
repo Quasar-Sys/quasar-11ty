@@ -124,6 +124,24 @@
           "active": true
         }
       ]
+    },
+    "final": {
+      "attributes": {
+        "id": "reassurance",
+        "headerStyle": "accent2",
+        "listStyle": "actions special",
+        "linkStyle": "button large wide scrolly"
+      },
+      "text": {
+        "headline": "Let's find your first automation opportunity.",
+        "subHeadline": "We start by understanding how your business currently operates and identifying one clear process that is costing you time every day. From there, we design a simple automation that fits into your workflow without disrupting how you already work.",
+        "content": [
+          "No commitment beyond the first step. We only expand automation after you see real value in practice."
+        ],
+        "ctaText": "Find my opportunity",
+        "ctaLink": "#",
+        "ctaMicroCopy": "We'll reply on WhatsApp to understand your workflow and see what can be improved."
+      }
     }
   },
   "sections": {

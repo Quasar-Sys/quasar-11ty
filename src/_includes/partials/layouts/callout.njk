@@ -6,6 +6,26 @@
       </span>
     </h2>
     <p>{{ this.text.subHeadline }}</p>
+    {% if this.text.ctaMicroCopy %}
+    <div class="content secondary inner">
+      <div class="cta-microcopy">
+        <div class="microcopy">
+          <p>{{ this.text.ctaMicroCopy | safe }}</p>
+        </div>
+        <div class="cta">
+          <ul class="{{ this.attributes.listStyle }}">
+            <li>
+              <a
+                href="{{ this.text.ctaLink }}"
+                class="{{ this.attributes.linkStyle }}">
+                {{ this.text.ctaText }}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    {% else %}
     <ul class="{{ this.attributes.listStyle }}">
       <li>
         <a
@@ -15,8 +35,6 @@
         </a>
       </li>
     </ul>
-    {% if this.text.ctaMicroCopy %}
-    <p>{{ this.text.ctaMicroCopy }}</p>
     {% endif %}
   </header>
 </section>

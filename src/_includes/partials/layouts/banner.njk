@@ -29,7 +29,10 @@
   {% endif %}
 
   <div class="content secondary inner">
-    <div class="risk-reversal-cta">
+    <div class="cta-microcopy">
+      <div  class="microcopy">
+        <p>{{ banner.text.ctaMicroCopy | safe }}</p>
+      </div>
       <div class="cta">
         <ul class="actions special">
           <li>
@@ -38,9 +41,6 @@
             </a>
           </li>
         </ul>
-      </div>
-      <div  class="risk-reversal">
-        <p>{{ banner.text.ctaMicroCopy | safe }}</p>
       </div>
     </div>
   </div>
