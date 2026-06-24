@@ -24,25 +24,8 @@ permalink: "/"
   </div>
 </section>
 
-<section id="reassurance" class="main">
-  <header class="accent2">
-    <h2>
-      <span class="shrink">
-        {{ sections.reassurance.text.headline | safe }}
-      </span>
-    </h2>
-    <p>{{ sections.reassurance.text.subHeadline }}</p>
-    <ul class="actions special">
-      <li>
-        <a
-          href="{{ sections.reassurance.text.ctaLink }}"
-          class="button large wide scrolly">
-          {{ sections.reassurance.text.ctaText }}
-        </a>
-      </li>
-    </ul>
-  </header>
-</section>
+{% set this = layouts.reassurance %}
+{% include "partials/layouts/callout.njk" %}
 
 {% set roadmap = layouts.roadmap %}
 {% include "partials/layouts/roadmap.njk" %}

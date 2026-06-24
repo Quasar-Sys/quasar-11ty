@@ -1,0 +1,22 @@
+<section id="{{ this.attributes.id }}" class="main">
+  <header class="{{ this.attributes.headerStyle }}">
+    <h2>
+      <span class="shrink">
+        {{ this.text.headline | safe }}
+      </span>
+    </h2>
+    <p>{{ this.text.subHeadline }}</p>
+    <ul class="{{ this.attributes.listStyle }}">
+      <li>
+        <a
+          href="{{ this.text.ctaLink }}"
+          class="{{ this.attributes.linkStyle }}">
+          {{ this.text.ctaText }}
+        </a>
+      </li>
+    </ul>
+    {% if this.text.ctaMicroCopy %}
+    <p>{{ this.text.ctaMicroCopy }}</p>
+    {% endif %}
+  </header>
+</section>

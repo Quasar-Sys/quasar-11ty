@@ -68,6 +68,21 @@
         }
       ]
     },
+    "reassurance": {
+      "attributes": {
+        "id": "reassurance",
+        "headerStyle": "accent2",
+        "listStyle": "actions special",
+        "linkStyle": "button large wide scrolly"
+      },
+      "text": {
+        "headline": "We don't automate everything. <br />We fix what hurts first.",
+        "subHeadline": "We start with the process creating the most friction in your business. Our experience working with US companies helps us design practical solutions that fit your operation and solve real problems — starting small, proving value, and expanding from there as your business grows.",
+        "ctaText": "Find your first automation opportunity",
+        "ctaLink": "#",
+        "ctaMicroCopy": null
+      }
+    },
     "roadmap": {
       "text": {
         "headline": "The 30-day plan: simple & low risk.",
@@ -122,14 +137,6 @@
       "picture": {
         "altText": "Isometric exploded view illustration of the Quasar Systems operational backbone, showing vertically stacked layers: a foundational coordinate grid, a printed circuit board with logic traces forming the logo, a user interface dashboard, and floating automated data components.",
         "srcWide": "exploded-view.webp"
-      }
-    },
-    "reassurance": {
-      "text": {
-        "headline": "We don't automate everything. <br />We fix what hurts first.",
-        "subHeadline": "We start with the process creating the most friction in your business. Our experience working with US companies helps us design practical solutions that fit your operation and solve real problems — starting small, proving value, and expanding from there as your business grows.",
-        "ctaText": "Find your first automation opportunity",
-        "ctaLink": "#"
       }
     }
   }
