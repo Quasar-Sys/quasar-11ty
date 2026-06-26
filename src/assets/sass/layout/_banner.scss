@@ -68,12 +68,17 @@
 		}
 
 		.features {
-			@include vendor('display', 'flex');
+			// @include vendor('display', 'flex');
 
-			> section {
-				flex: 1;
-				padding: 0 2rem;
-			}
+			// > section {
+			// 	flex: 1;
+			// 	padding: 0 2rem;
+			// }
+
+      @include vendor('display', 'grid');
+
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2rem;
 		}
 
 		#header + main > & {
@@ -116,11 +121,15 @@
 				}
 			}
 
-			.features {
-				> section {
-					padding: 0 1rem;
-				}
-			}
+			// .features {
+			// 	> section {
+			// 		padding: 0 1rem;
+			// 	}
+			// }
+
+      .features {
+        grid-template-columns: repeat(2, 1fr);
+      }
 		}
 
 		@include breakpoint('<=small') {

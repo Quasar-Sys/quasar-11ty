@@ -10,21 +10,19 @@
 
   {% if banner.features %}
   <div class="content secondary inner">
-      {% for row in banner.features %}
       <div class="features">
-        {% for section in row %}
+        {% for item in banner.features %}
         <section>
           <div class="icon major">
-            <i class="{{ section.icon }}"></i>
+            <i class="{{ item.icon }}"></i>
           </div>
           <h3>
-            {{ section.heading }}
+            {{ item.heading }}
           </h3>
-          <p>{{ section.caption }}</p>
+          <p>{{ item.caption }}</p>
         </section>
         {% endfor %}
       </div>
-      {% endfor %}
   </div>
   {% endif %}
 

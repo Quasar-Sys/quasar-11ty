@@ -9,28 +9,26 @@
         "ctaMicroCopy": "No obligations. No complicated software changes. We start with one process, prove the value, and expand from there."
       },
       "features": [
-        [
-          {
-            "icon": "fa-solid fa-thumbs-up",
-            "heading": "Get your evenings back",
-            "caption": "Stop chasing receipts or retyping WhatsApp data. Our systems handle the busy work, keeping your data organized and your team focused."
-          },
-          {
-            "icon": "fa-solid fa-network-wired",
-            "heading": "Stay in control anywhere",
-            "caption": "Know exactly what's happening on the job site without having to be there. Our tools connect your field team directly to your office."
-          },
-          {
-            "icon": "fa-solid fa-layer-group",
-            "heading": "Grow without the headache",
-            "caption": "Most businesses have to hire more office help just to keep up with the paperwork. We help you scale your revenue without increasing your administrative burden."
-          },
-          {
-            "icon": "fa-solid fa-magnifying-glass-chart",
-            "heading": "See your real profits",
-            "caption": "Get a clear, simple dashboard that shows you exactly which jobs are making money and which ones aren't—in real-time."
-          }
-        ]
+        {
+          "icon": "fa-solid fa-thumbs-up",
+          "heading": "Get your evenings back",
+          "caption": "Stop chasing receipts or retyping WhatsApp data. Our systems handle the busy work, keeping your data organized and your team focused."
+        },
+        {
+          "icon": "fa-solid fa-network-wired",
+          "heading": "Stay in control anywhere",
+          "caption": "Know exactly what's happening on the job site without having to be there. Our tools connect your field team directly to your office."
+        },
+        {
+          "icon": "fa-solid fa-layer-group",
+          "heading": "Grow without the headache",
+          "caption": "Most businesses have to hire more office help just to keep up with the paperwork. We help you scale your revenue without increasing your administrative burden."
+        },
+        {
+          "icon": "fa-solid fa-magnifying-glass-chart",
+          "heading": "See your real profits",
+          "caption": "Get a clear, simple dashboard that shows you exactly which jobs are making money and which ones aren't—in real-time."
+        }
       ],
       "picture": {
         "altText": "Abstract picture of Quasar Systems logo featuring ",
