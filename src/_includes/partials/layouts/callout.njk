@@ -2,10 +2,10 @@
   <header class="{{ this.attributes.headerStyle }}">
     <h2>
       <span class="shrink">
-        {{ this.text.headline | safe }}
+        {{ this.text.title | safe }}
       </span>
     </h2>
-    <p>{{ this.text.subHeadline }}</p>
+    <p>{{ this.text.copy }}</p>
     {% if this.text.ctaMicroCopy %}
     <div class="content secondary inner">
       <div class="cta-microcopy">

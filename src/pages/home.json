@@ -2,8 +2,8 @@
   "layouts": {
     "banner": {
       "text": {
-        "headline": "Your business should run like a machine.",
-        "subHeadline": "We build and implement automation systems that remove the repetitive work slowing your business down — from customer follow-ups and scheduling to paperwork and team coordination — so you can spend less time managing tasks and more time growing your company.",
+        "title": "Your business should run like a machine.",
+        "copy": "We build and implement automation systems that remove the repetitive work slowing your business down — from customer follow-ups and scheduling to paperwork and team coordination — so you can spend less time managing tasks and more time growing your company.",
         "ctaText": "Get started",
         "ctaLink": "#",
         "ctaMicroCopy": "No obligations. No complicated software changes. We start with one process, prove the value, and expand from there."
@@ -40,8 +40,8 @@
     },
     "deck": {
       "text": {
-        "headline": "Built for service businesses where operations happen in the real world.",
-        "subHeadline": "If your business involves clients, teams, and ongoing daily operations, these are examples of the types of companies we typically work with.",
+        "title": "Built for service businesses where operations happen in the real world.",
+        "copy": "If your business involves clients, teams, and ongoing daily operations, these are examples of the types of companies we typically work with.",
         "ctaText": null,
         "ctaLink": null
       },
@@ -76,8 +76,8 @@
         "linkStyle": "button large wide scrolly"
       },
       "text": {
-        "headline": "We don't automate everything. <br />We fix what hurts first.",
-        "subHeadline": "We start with the process creating the most friction in your business. Our experience working with US companies helps us design practical solutions that fit your operation and solve real problems — starting small, proving value, and expanding from there as your business grows.",
+        "title": "We don't automate everything. <br />We fix what hurts first.",
+        "copy": "We start with the process creating the most friction in your business. Our experience working with US companies helps us design practical solutions that fit your operation and solve real problems — starting small, proving value, and expanding from there as your business grows.",
         "ctaText": "Find your first automation opportunity",
         "ctaLink": "#",
         "ctaMicroCopy": null
@@ -85,8 +85,8 @@
     },
     "roadmap": {
       "text": {
-        "headline": "The 30-day plan: simple & low risk.",
-        "subHeadline": "Our 4-S roadmap helps you find the biggest operational bottleneck, confirm the right solution, and put a working system in place within 30 days — without adding complexity to your business.",
+        "title": "The 30-day plan: simple & low risk.",
+        "copy": "Our 4-S roadmap helps you find the biggest operational bottleneck, confirm the right solution, and put a working system in place within 30 days — without adding complexity to your business.",
         "ctaText": null,
         "ctaLink": null
       },
@@ -133,8 +133,8 @@
         "linkStyle": "button large wide scrolly"
       },
       "text": {
-        "headline": "Let's find your first automation opportunity.",
-        "subHeadline": "We start by understanding how your business currently operates and identifying one clear process that is costing you time every day. From there, we design a simple automation that fits into your workflow without disrupting how you already work.",
+        "title": "Let's find your first automation opportunity.",
+        "copy": "We start by understanding how your business currently operates and identifying one clear process that is costing you time every day. From there, we design a simple automation that fits into your workflow without disrupting how you already work.",
         "content": [
           "No commitment beyond the first step. We only expand automation after you see real value in practice."
         ],
@@ -147,8 +147,8 @@
   "sections": {
     "why": {
       "text": {
-        "headline": "No buzzwords. Just systems that work.",
-        "subHeadline": "We don't sell \"AI\" for the sake of it. We are engineers who build the systems your business needs to stay organized, reduce manual work, and scale without unnecessary complexity.",
+        "title": "No buzzwords. Just systems that work.",
+        "copy": "We don't sell \"AI\" for the sake of it. We are engineers who build the systems your business needs to stay organized, reduce manual work, and scale without unnecessary complexity.",
         "ctaText": null,
         "ctaLink": null
       },
