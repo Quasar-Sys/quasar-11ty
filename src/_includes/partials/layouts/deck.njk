@@ -5,12 +5,10 @@
       </h2>
       <p>{{ deck.text.copy }}</p>
     </header>
-    <div class="card-grid inner">
+    <div class="deck inner">
         {% for card in deck.features %}
         <article 
-          class="card1"
-          style="--card-image: url('{{ site.path.siteRoot }}{{ site.path.imageDir }}card1-bg.webp');"
-        >
+          style="--card-image: url('{{ site.path.siteRoot }}{{ site.path.imageDir }}card1-bg.webp');">
             <img src="{{ site.path.siteRoot }}{{ site.path.imageDir }}{{ card.icon }}">
             <h3>{{ card.heading }}</h3>
             <p>{{ card.caption }}</p>
