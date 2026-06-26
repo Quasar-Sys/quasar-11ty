@@ -1,0 +1,96 @@
+{
+  "brand": {
+    "title": "Quasar Systems",
+    "copy": "We design and implement practical automation systems that help businesses simplify their workflows, improve daily operations, and scale without adding unnecessary complexity.",
+    "content": [
+      {
+        "name": "facebook",
+        "label": "Facebook",
+        "icon": "fa-brands fa-facebook",
+        "link": "#"
+      },
+      {
+        "name": "instagram",
+        "label": "Instagram",
+        "icon": "fa-brands fa-instagram",
+        "link": "#"
+      },
+      {
+        "name": "linkedin",
+        "label": "LinkedIn",
+        "icon": "fa-brands fa-square-linkedin",
+        "link": "#"
+      },
+      {
+        "name": "github",
+        "label": "GitHub",
+        "icon": "fa-brands fa-github",
+        "link": "#"
+      }
+    ]
+  },
+  "solutions": {
+    "title": "Solutions",
+    "content": [
+      {
+        "label": "Workflow automation",
+        "icon": null,
+        "link": null
+      },
+      {
+        "label": "Process improvement",
+        "icon": null,
+        "link": null
+      },
+      {
+        "label": "Client onboarding",
+        "icon": null,
+        "link": null
+      },
+      {
+        "label": "Team coordination",
+        "icon": null,
+        "link": null
+      },
+      {
+        "label": "Business dashboards",
+        "icon": null,
+        "link": null
+      },
+      {
+        "label": "AI workflows",
+        "icon": null,
+        "link": null
+      }
+    ]
+  },
+  "legal": {
+    "title": "Legal",
+    "content": [
+      {
+        "label": "Privacy policy",
+        "icon": "fa-solid fa-angle-right",
+        "link": "#"
+      },
+      {
+        "label": "Terms of service",
+        "icon": "fa-solid fa-angle-right",
+        "link": "#"
+      },
+      {
+        "label": "Cookie policy",
+        "icon": "fa-solid fa-angle-right",
+        "link": "#"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Ready to improve?",
+    "copy": "Every business has processes that create unnecessary friction. Let's identify where automation can make the biggest impact, reduce manual work, and improve the way your operation runs.",
+    "ctaText": "Get in touch",
+    "ctaLink": "#"
+  },
+  "copyright": {
+    "copy": "&copy; 2026 Quasar Systems. All rights reserved."
+  }
+}

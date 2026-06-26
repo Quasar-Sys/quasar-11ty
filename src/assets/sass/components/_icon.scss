@@ -2,7 +2,7 @@
 /* Icon */
 
 .icon {
-  @include icon;
+  // @include icon;
   $icon-size: _size(element-height) * 1.75;
 
   border-bottom: none;
