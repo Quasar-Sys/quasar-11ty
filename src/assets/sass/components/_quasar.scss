@@ -1,3 +1,28 @@
+#header {
+  &.alt {
+    > .logo {
+      height: 100%;
+
+      img {
+        height: 100%;
+        width: auto;
+      }
+    }
+  }
+
+  &:not(.alt) {
+    > .logo {
+      padding: 0.15rem 0;
+      height: 100%;
+
+      img {
+        height: 100%;
+        width: auto;
+      }
+    }
+  }
+}
+
 #banner {
   h1 {
     font-size: 6rem;
