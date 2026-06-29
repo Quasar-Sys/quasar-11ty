@@ -24,12 +24,15 @@
 		top: 0;
 		left: 0;
 		width: 100%;
-		height: _size(header, default);
+		height: _size(header, default) * 1.25;
 		line-height: _size(header, default);
 		background-color: _palette(bg);
 		box-shadow: 0 0 0.5rem 0 _palette(bg-shadow);
 		cursor: default;
 		z-index: _misc(z-index-base);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
 
 		a {
 			display: block;
@@ -39,8 +42,8 @@
 		}
 
 		> .logo {
-			position: absolute;
-			left: 1rem;
+			// position: absolute;
+			// left: 1rem;
 
 			strong {
 				font-weight: _font(weight-extrabold);
@@ -48,8 +51,8 @@
 		}
 
 		> nav {
-			position: absolute;
-			right: 0;
+			// position: absolute;
+			// right: 0;
 
 			> ul {
 				list-style: none;
@@ -63,7 +66,7 @@
 					padding: 0;
 
 					> a {
-						overflow: hidden;
+						// overflow: hidden;
 
 						> span.icon > i {
               float: right;
@@ -88,7 +91,7 @@
 							content: '';
 							display: block;
 							position: absolute;
-							bottom: 0;
+							bottom: calc(-0.5rem + 3px);
 							left: 0;
 							width: 100%;
 							height: 3px;
@@ -173,15 +176,15 @@
 			background-color: transparent;
 			position: absolute;
 
-			> .logo {
-				top: 1rem;
-				left: 2rem;
-			}
+			// > .logo {
+			// 	top: 1rem;
+			// 	left: 2rem;
+			// }
 
-			> nav {
-				top: 1rem;
-				right: 1rem;
-			}
+			// > nav {
+			// 	top: 1rem;
+			// 	right: 1rem;
+			// }
 
 			> .navPanelToggle {
 				top: 1rem;
@@ -198,7 +201,7 @@
 			));
 			@include icon(false, solid);
 			display: none;
-			position: absolute;
+			// position: absolute;
 			top: 0;
 			right: 0;
 			height: inherit;
@@ -208,6 +211,7 @@
 
 			&:before {
 				content: '\f0c9';
+        font-family: "Font Awesome 7 Free";
 				line-height: inherit;
 				margin: 0 0 0 0.625rem;
 				float: right;
