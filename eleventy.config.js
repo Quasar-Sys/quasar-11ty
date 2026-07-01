@@ -1,5 +1,6 @@
 import path from 'node:path';
 import * as sass from 'sass';
+import { I18nPlugin } from "@11ty/eleventy";
 
 export default function (eleventyConfig) {
 	eleventyConfig.setInputDirectory('src');
@@ -36,4 +37,8 @@ export default function (eleventyConfig) {
 	});
 
 	eleventyConfig.addTemplateFormats('scss');
+
+  eleventyConfig.addPlugin(I18nPlugin, {
+    defaultLanguage: "en"
+  });
 }

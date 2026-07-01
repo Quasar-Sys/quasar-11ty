@@ -1,0 +1,159 @@
+{
+  "layouts": {
+    "banner": {
+      "text": {
+        "title": "Sua empresa deveria ser como uma máquina.",
+        "copy": "Desenvolvemos soluções de automação que eliminam o trabalho repetitivo que gera atraso em sua empresa — acompanhamentos de clientes, agendamentos, papelada, coordenação de equipes, entre outros — para que você passe menos tempo gerenciando a burocracia e mais tempo fazendo sua empresa crescer.",
+        "ctaText": "Comece hoje mesmo",
+        "ctaLink": "#",
+        "ctaMicroCopy": "Sem obrigações, sem migrações de software complicadas. Começamos com um único processo, demonstramos o valor e expandimos a partir daí."
+      },
+      "features": [
+        {
+          "icon": "fa-solid fa-thumbs-up",
+          "heading": "Recupere suas noites de sono",
+          "caption": "Pare de procurar recibos ou redigitar informações do WhatsApp. Cuidamos das tarefas ineficientes, mantendo seus dados organizados e sua equipe focada em resultados."
+        },
+        {
+          "icon": "fa-solid fa-network-wired",
+          "heading": "Tenha controle de qualquer lugar",
+          "caption": "Saiba exatamente o que está acontecendo no local de trabalho sem precisar estar presente. Nossas ferramentas conectam suas equipes de campo diretamente ao escritório."
+        },
+        {
+          "icon": "fa-solid fa-layer-group",
+          "heading": "Cresça sem dor de cabeça",
+          "caption": "Muitas empresas precisam contratar mais pessoas apenas para dar conta da papelada. Nós ajudamos você a aumentar sua receita sem aumentar sua carga administrativa."
+        },
+        {
+          "icon": "fa-solid fa-magnifying-glass-chart",
+          "heading": "Conheça seu lucro de verdade",
+          "caption": "Tenha um dashboard simples, claro e intuitivo que mostre exatamente quais vendas estão gerando lucro e quais não estão — em tempo real."
+        }
+      ],
+      "picture": {
+        "altText": "Imagem abstrata do logo da Quasar Systems",
+        "srcTall": "home-banner-tall.webp",
+        "srcWide": "home-banner-wide.webp"
+      }
+    },
+    "deck": {
+      "text": {
+        "title": "Ideal para empresas cujos serviços acontecem no mundo real.",
+        "copy": "Se o seu negócio depende de organização diária de clientes, equipes e atividades de longa duração, ele atende o perfil ideal de empresa com as quais costumamos trabalhar.",
+        "ctaText": null,
+        "ctaLink": null
+      },
+      "features": [
+        {
+          "icon": "icon-construction.webp",
+          "heading": "Construction & Landscaping",
+          "caption": "Elimine o caos de controlar materiais e equipes. Ao invés de ficar correndo atrás da papelada, sua equipe envia recibos de fornecedores como Home Depot ou Lowe's diretamente pelo WhatsApp. Nossas soluções organizam os custos e despesas por projeto e categoria. Você acompanha o andamento e o status dos projetos em tempo real, sem precisar de digitar dados manualmente."
+        },
+        {
+          "icon": "icon-property-management.webp",
+          "heading": "Real estate & Property management",
+          "caption": "Pare de perder tempo com tarefas administrativas que não geram valor e follow-ups constantes e repetitivos. Automatizamos respostas para novos contatos, comunicação com clientes, agendamento de reuniões e coleta de documentos — aliviando você de ter que cuidar do meio de campo a todo instante, e possibilitando que tenha mais tempo para se dedicar aos seus clientes."
+        },
+        {
+          "icon": "icon-professional-services.webp",
+          "heading": "Professional services",
+          "caption": "Pare de ficar caçando os clientes para cobrar documentos pendentes. Nossa soluções para escritórios de imigração, contabilidade e financeiros automatizam o trabalho tedioso de coletar arquivos e enviar lembretes. Seu processo de onboarding fica mais rápido e sua documentação já fica organizada para a época do imposto de renda ou para auditorias, o que facilita atender mais clientes com menos esforço."
+        },
+        {
+          "icon": "icon-field-services.webp",
+          "heading": "Cleaning & Field services",
+          "caption": "Organize a agenda da sua equipe com facilidade. Profissionalize a coordenação dos seus times e o despacho para o campo. Nossos sistemas cuidam automaticamente dos agendamentos e das confirmações de trabalhos, bem como da atribuição de tarefas para as equipes. Você reduz a necessidade de comunicação constante para gerenciar equipes externas, tornando sua operação diária mais previsível e fácil de escalar."
+        }
+      ]
+    },
+    "reassurance": {
+      "attributes": {
+        "id": "reassurance",
+        "headerStyle": "accent2",
+        "listStyle": "actions special",
+        "linkStyle": "button large wide scrolly"
+      },
+      "text": {
+        "title": "Não automatizamos tudo de uma vez.<br />Resolvemos o maior incômodo primeiro.",
+        "copy": "Começamos pelo processo que mais gera atrito na sua empresa. Nossa experiência trabalhando com empresas americanas nos habilita a criar soluções práticas que se encaixam na sua operação e resolvem problemas reais — começando pequeno, comprovando valor e expandindo conforme sua empresa cresce.",
+        "ctaText": "Descobrir minha primeira oportunidade de automação",
+        "ctaLink": "#",
+        "ctaMicroCopy": null
+      }
+    },
+    "roadmap": {
+      "text": {
+        "title": "O plano de 30 dias: simples e de baixo risco.",
+        "copy": "Nosso roadmap 4-S ajuda você a encontrar o maior gargalo operacional, validar a solução correta e colocar um sistema funcionando em até 30 dias — sem adicionar complexidade à sua empresa.",
+        "ctaText": null,
+        "ctaLink": null
+      },
+      "features": [
+        {
+          "icon": "fa-solid fa-power-off",
+          "class": "step-start",
+          "heading": "Descubra onde você está perdendo tempo",
+          "caption": "Começamos entendendo sua operação atual — como as informações circulam, quais tarefas são repetitivas e onde sua equipe perde horas desnecessárias no dia a dia. Identificamos os gargalos que desaceleram sua empresa, analisamos suas oportunidades de melhoria e definimos como podemos gerar impacto real.",
+          "label": "1. START",
+          "active": false
+        },
+        {
+          "icon": "fa-solid fa-compass-drafting",
+          "class": "step-survey",
+          "heading": "Mapeie a solução certa",
+          "caption": "Analisamos os gargalos identificados no primeiro passo e desenhamos uma solução prática para sua empresa. Você fornece o contexto necessário e nós cuidamos do planejamento — garantindo que o sistema se encaixe no seu fluxo de trabalho antes da implementação.",
+          "label": "2. SURVEY",
+          "active": false
+        },
+        {
+          "icon": "fa-solid fa-screwdriver-wrench",
+          "class": "step-solve",
+          "heading": "Estreie sua primeira automação",
+          "caption": "Desenvolvemos e testamos uma solução funcional baseada nas suas prioridades. Em até 30 dias, você recebe um sistema prático criado para resolver um problema específico — reduzindo trabalho manual, melhorando a organização e dando mais tempo para sua equipe se concentrar.",
+          "label": "3. SOLVE",
+          "active": false
+        },
+        {
+          "icon": "fa-solid fa-atom",
+          "class": "step-scale",
+          "heading": "Expanda aquilo que já funciona",
+          "caption": "Depois de comprovar os ganhos da sua primeira automação, desenvolvemos novas funcionalidades. Sua empresa ganha uma base operacional mais forte, permitindo a automatização de mais processos, redução da pressão administrativa e crescimento sem adição de complexidade desnecessária.",
+          "label": "4. SCALE",
+          "active": true
+        }
+      ]
+    },
+    "final": {
+      "attributes": {
+        "id": "reassurance",
+        "headerStyle": "accent2",
+        "listStyle": "actions special",
+        "linkStyle": "button large wide scrolly"
+      },
+      "text": {
+        "title": "Vamos encontrar sua primeira oportunidade de automação.",
+        "copy": "Começamos entendendo como sua empresa funciona hoje e identificando um processo claro que consome seu tempo diariamente. A partir daí, desenhamos uma automação simples que se encaixa no seu fluxo de trabalho sem interromper a forma como você funciona atualmente.",
+        "content": [
+          "Sem compromisso além do primeiro passo. Só expandimos a automação depois que você enxergar valor real na prática."
+        ],
+        "ctaText": "Encontrar minha oportunidade",
+        "ctaLink": "#",
+        "ctaMicroCopy": "Responderemos pelo WhatsApp para entender seu fluxo de trabalho e identificar o que pode ser melhorado."
+      }
+    }
+  },
+  "sections": {
+    "system": {
+      "text": {
+        "title": "Sem papo furado. Apenas sistemas que funcionam.",
+        "copy": "Nós não vendemos \"IA\" apenas por vender. Somos profissionais habilitados a construir os sistemas que sua empresa precisa para se manter organizada, reduzir o trabalho manual e crescer sem complexidade desnecessária.",
+        "ctaText": null,
+        "ctaLink": null
+      },
+      "picture": {
+        "altText": "Ilustração isométrica em vista explodida mostrando a base operacional da Quasar Systems, com camadas empilhadas verticalmente: uma grade de coordenadas como fundação, uma placa de circuito com trilhas lógicas formando o logo, um painel de interface do usuário e componentes de dados automatizados flutuando.",
+        "srcWide": "exploded-view.webp"
+      }
+    }
+  }
+}

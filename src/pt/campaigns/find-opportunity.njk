@@ -1,0 +1,33 @@
+---
+title: "Quasar Systems"
+layout: "templates/passthrough.njk"
+---
+
+{% set banner = layouts.banner %}
+{% include "partials/layouts/banner.njk" %}
+
+{% set deck = layouts.deck %}
+{% include "partials/layouts/deck.njk" %}
+
+<!-- How it works (exploded view) -->
+<section id="system" class="main">
+  <header>
+    <h2>
+      <span class="shrink">{{ sections.system.text.title }}</span>
+    </h2>
+    <p>{{ sections.system.text.copy }}</p>
+  </header>
+  <div class="inner">
+    <img src="{{ site.path.siteRoot }}{{ site.path.imageDir }}{{ sections.system.picture.srcWide }}"
+      alt="{{ sections.system.picture.altText }}">
+  </div>
+</section>
+
+{% set this = layouts.reassurance %}
+{% include "partials/layouts/callout.njk" %}
+
+{% set roadmap = layouts.roadmap %}
+{% include "partials/layouts/roadmap.njk" %}
+
+{% set this = layouts.final %}
+{% include "partials/layouts/callout.njk" %}
